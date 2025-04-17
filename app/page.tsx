@@ -1,15 +1,12 @@
-'use client';
-import { Preview } from '@react-email/components';
+import ChatInterface from '@/components/custom/chat-interface';
+import { generateId } from 'ai';
 
-export default function Home() {
+export default async function Page() {
+  const id = generateId();
+
   return (
-    <>
-      Hey
-      <Email />
-    </>
+    <div className='h-full w-full'>
+      <ChatInterface id={id} />
+    </div>
   );
 }
-
-const Email = () => {
-  return <Preview>Email preview text</Preview>;
-};
