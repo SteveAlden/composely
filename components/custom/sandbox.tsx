@@ -316,6 +316,11 @@ const dependencies = {
   motion: '^12.7.4',
   react: '^19.1.0',
   'react-dom': '^19.1.0',
+  'tailwind-merge': '^3.2.0',
+  'tw-animate-css': '^1.2.5',
+  'class-variance-authority': '^0.7.1',
+  clsx: '^2.1.1',
+  cmdk: '^1.1.1',
 };
 
 const devDependencies = {
