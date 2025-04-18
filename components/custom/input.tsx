@@ -66,7 +66,7 @@ const Input: React.FC<InputProps> = ({
   return (
     <form
       onSubmit={onSubmit}
-      className='fixed bottom-6 left-0 md:left-14 w-full pb-0.5 pr-0 md:pr-12 z-40'
+      className='fixed bottom-6 left-0 w-full pb-0.5 pr-0 z-40'
     >
       <motion.div
         initial={{ opacity: 0, y: 200 }}
