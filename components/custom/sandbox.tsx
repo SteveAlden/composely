@@ -33,7 +33,7 @@ export default function Sandbox({ generatedCode = '' }: SandboxProps) {
   return (
     <SandpackProvider
       template='react-ts'
-      theme={'dark'}
+      theme={'light'}
       files={sandpackFiles}
       options={{
         autorun: true,
